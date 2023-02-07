@@ -1,11 +1,11 @@
 version: "1"
 rules:                      # Array of rules
   - base: main            # Required. Target branch
-    upstream: hanghae-last-week:main    # Required. Must be in the same fork network.
+    upstream: CICD-TEST:main    # Required. Must be in the same fork network.
     mergeMethod: hardreset  # Optional, one of [none, merge, squash, rebase, hardreset], Default: none.
     mergeUnstable: false    # Optional, merge pull request even when the mergeable_state is not clean. Default: false
   - base: develop
-    upstream: hanghae-last-week:develop        # Required. Can be a branch in the same forked repo.
+    upstream: CICD-TEST:develop        # Required. Can be a branch in the same forked repo.
     assignees:              # Optional
       - rylynn
     reviewers:              # Optional
