@@ -1,8 +1,0 @@
-version: "1"
-rules:
-  - base: main
-    upstream: hanghae-last-week:main    # change `wei` to the owner of upstream repo
-    mergeMethod: merge
-  - base: develop
-    upstream: hanghae-last-week:develop    # change `wei` to the owner of upstream repo
-    mergeMethod: merge
